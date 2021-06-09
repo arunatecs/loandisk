@@ -78,5 +78,3 @@ def main():
         print(e.response.text)
  
 
-if __name__ == '__main__':
-    main()
