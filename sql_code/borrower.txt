@@ -1,0 +1,55 @@
+CREATE TABLE `borrower` (
+`borrower_id` int NOT NULL,
+`borrower_country` varchar(255) DEFAULT NULL,
+`borrower_fullname` varchar(255) DEFAULT NULL,
+`borrower_firstname` varchar(45) DEFAULT NULL,
+`borrower_lastname` varchar(45) DEFAULT NULL,
+`borrower_business_name` varchar(45) DEFAULT NULL,
+`borrower_unique_number` varchar(45) DEFAULT NULL,
+`borrower_gender` varchar(45) DEFAULT NULL,
+`borrower_title` int DEFAULT NULL,
+`borrower_mobile` varchar(45) DEFAULT NULL,
+`borrower_email` varchar(45) DEFAULT NULL,
+`borrower_dob` varchar(45) DEFAULT NULL,
+`borrower_address` varchar(255) DEFAULT NULL,
+`borrower_city` varchar(45) DEFAULT NULL,
+`borrower_province` varchar(45) DEFAULT NULL,
+`borrower_zipcode` varchar(45) DEFAULT NULL,
+`borrower_landline` varchar(45) DEFAULT NULL,
+`borrower_working_status` varchar(45) DEFAULT NULL,
+`borrower_credit_score` varchar(45) DEFAULT NULL,
+`borrower_description` varchar(255) DEFAULT NULL,
+`borrower_access_ids` varchar(255) DEFAULT NULL,
+`borrower_photo` varchar(45) DEFAULT NULL,
+`custom_field_5819` varchar(45) DEFAULT NULL,
+`custom_field_5820` varchar(45) DEFAULT NULL,
+`custom_field_5821` varchar(45) DEFAULT NULL,
+`custom_field_5822` varchar(45) DEFAULT NULL,
+`custom_field_5823` varchar(45) DEFAULT NULL,
+`custom_field_5824` varchar(45) DEFAULT NULL,
+`custom_field_6985` varchar(45) DEFAULT NULL,
+`custom_field_7080` varchar(45) DEFAULT NULL,
+`custom_field_7102` varchar(45) DEFAULT NULL,
+`custom_field_7103` varchar(45) DEFAULT NULL,
+`custom_field_7104` varchar(45) DEFAULT NULL,
+`custom_field_7106` varchar(45) DEFAULT NULL,
+PRIMARY KEY (`borrower_id`)
+)
+INSERT INTO `loan`.`borrower`
+(`borrower_id`,`borrower_country`,`borrower_fullname`,`borrower_firstname`,`borrower_lastname`,`borrower_business_name`,
+`borrower_unique_number`,`borrower_gender`,`borrower_title`,`borrower_mobile`,`borrower_email`,`borrower_dob`,
+`borrower_address`,`borrower_city`,`borrower_province`,`borrower_zipcode`,`borrower_landline`,
+`borrower_working_status`,`borrower_credit_score`,`borrower_description`,`borrower_access_ids`,`borrower_photo`,
+`custom_field_5819`,`custom_field_5820`,`custom_field_5821`,`custom_field_5822`,`custom_field_5823`,
+`custom_field_5824`,`custom_field_6985`,`custom_field_7080`,`custom_field_7102`,`custom_field_7103`,`custom_field_7104`,
+`custom_field_7106`)
+VALUES
+(1164144,"BW",null,"Patrick","Johnson","","1000001","Male",1,"0984448008","pat3228@gmail.com","03/11/1980","plot 900291",
+Gaborone,"","102449","","Government Employee","","","{\"1\":\"20560\"}"
+,null,"","","","","","","","","","","",""),
+(1251963,"BW",null,"JIMMY","VAN ZYL","","1000017","Male",1,"76642944","paul@deselle.co.BW","09/05/1976","jhbkjlm",
+jhbkjlm,"jhgbhknlm","","","","","","{\"1\":\"20560\"}"
+,null,"CR52JFGP","IUHJLKJLKJ","3909306","IUJBJJL","76642944","7605095004080","","","","","",""),
+(1517327,"BW",null,"Douglas","Archibald","","","Male",0,"71000113","douglasa@gmail.com","27/05/1966","",
+,"","","","","","","[]"
+,null,"B333BWM","Department of Labour Relations","+26772008122","Sharon Archibald","+26772987001","9022345567","Gaborone Main","zoho_igor246","Toyota","Corolla","2015","2058")

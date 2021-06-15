@@ -1,0 +1,19 @@
+CREATE TABLE `original_loan_schedule` (
+`LoanId` int DEFAULT NULL,
+`Date` varchar(45) DEFAULT NULL,
+`Description` varchar(255) DEFAULT NULL,
+`Principal` decimal(8,2) DEFAULT NULL,
+`Interest` decimal(8,2) DEFAULT NULL,
+`Fees` decimal(8,2) DEFAULT NULL,
+`Penalty` decimal(8,2) DEFAULT NULL,
+`Due` decimal(8,2) DEFAULT NULL,
+`Total Due` decimal(8,2) DEFAULT NULL,
+`Principal Balance` decimal(8,2) DEFAULT NULL
+)
+
+INSERT INTO `original_loan_schedule`
+(`LoanId`,`Date`,`Description`,`Principal`,`Interest`,`Fees`,`Penalty`,`Due`,`Total Due`,`Principal Balance`)
+VALUES
+(1566174,"01/10/2020","Repayment" ,0.0 ,1470.0 ,0.0 ,0.0 ,1470.0 ,1470.0 ,4970.0),						
+(1566174 ,"01/10/2020" ,"Repayment" ,4900.0 ,0.0 ,0.0 ,0.0 ,4900.0 ,6370.0 ,0.0	),					
+(1566174 ,"31/10/2020" ,"Make due other Fee Locksmith Fee  Additional Fuel Fee Towing Fee Marketing Fee	Repossession Fee" ,0.0 ,0.0 ,2493.0 ,0.0 ,2493.0 ,8863.0 ,0.0)
